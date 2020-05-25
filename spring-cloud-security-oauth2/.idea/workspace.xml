@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59468172-6775-4cf9-b076-bce46400927a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-eureka/src/main/java/com/megvii/distributed/eureka/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-eureka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-order/src/main/java/com/megvii/distributed/order/OrderServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-order/src/main/java/com/megvii/distributed/order/common/EncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-order/src/main/java/com/megvii/distributed/order/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-order/src/main/java/com/megvii/distributed/order/config/TokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-order/src/main/java/com/megvii/distributed/order/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-order/src/main/java/com/megvii/distributed/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-order/src/main/java/com/megvii/distributed/order/filter/TokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-order/src/main/java/com/megvii/distributed/order/model/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-order/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-uaa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-uaa/src/main/java/com/megvii/distributed/uaa/UAAServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-uaa/src/main/java/com/megvii/distributed/uaa/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-uaa/src/main/java/com/megvii/distributed/uaa/config/TokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-uaa/src/main/java/com/megvii/distributed/uaa/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-uaa/src/main/java/com/megvii/distributed/uaa/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-uaa/src/main/java/com/megvii/distributed/uaa/model/PermissionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-uaa/src/main/java/com/megvii/distributed/uaa/model/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-uaa/src/main/java/com/megvii/distributed/uaa/service/SpringDataUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-uaa/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-zuul/src/main/java/com/megvii/distributed/zuul/ZuulServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-zuul/src/main/java/com/megvii/distributed/zuul/common/EncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-zuul/src/main/java/com/megvii/distributed/zuul/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-zuul/src/main/java/com/megvii/distributed/zuul/config/TokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-zuul/src/main/java/com/megvii/distributed/zuul/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-zuul/src/main/java/com/megvii/distributed/zuul/config/ZuulConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-zuul/src/main/java/com/megvii/distributed/zuul/filter/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-zuul/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/user_db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\IdeaProjects\git-repo\spring-cloud-security-oauth2\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c6cg5nNxOxHKk4l9OmAnQJChTO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15332031" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.megvii.distributed.order.common" />
+      <recent name="com.megvii.distributed.order.model" />
+      <recent name="com.megvii.distributed.zuul.common" />
+      <recent name="com.megvii.distributed.order.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\git-repo\spring-cloud-security-oauth2\doc" />
+      <recent name="E:\IdeaProjects\git-repo\spring-cloud-security-oauth2\distributed-zuul\src\main\java\com\megvii\distributed\zuul" />
+      <recent name="E:\IdeaProjects\git-repo\spring-cloud-security-oauth2\distributed-uaa\src\main\java\com\megvii\distributed\uaa\model" />
+      <recent name="E:\IdeaProjects\git-repo\spring-cloud-security-oauth2\distributed-uaa\src\main\java\com\megvii\distributed\uaa\config" />
+      <recent name="E:\IdeaProjects\git-repo\spring-cloud-security-oauth2\distributed-order\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderServerApplication">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="distributed-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.megvii.distributed.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.megvii.distributed.eureka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="distributed-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.megvii.distributed.order.OrderServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UAAServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="distributed-uaa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.megvii.distributed.uaa.UAAServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="distributed-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.megvii.distributed.zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.megvii.distributed.zuul.ZuulServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.OrderServerApplication" />
+      <item itemvalue="Spring Boot.UAAServerApplication" />
+      <item itemvalue="Spring Boot.ZuulServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ZuulServerApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.2565688" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59468172-6775-4cf9-b076-bce46400927a" name="Default Changelist" comment="" />
+      <created>1589791343224</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589791343224</updated>
+      <workItem from="1589791346081" duration="3598000" />
+      <workItem from="1589852596402" duration="12779000" />
+      <workItem from="1589936630396" duration="2345000" />
+      <workItem from="1590030810584" duration="688000" />
+      <workItem from="1590044508661" duration="616000" />
+      <workItem from="1590048011246" duration="903000" />
+      <workItem from="1590124920849" duration="9163000" />
+      <workItem from="1590301684269" duration="15697000" />
+      <workItem from="1590317726114" duration="3668000" />
+      <workItem from="1590371747908" duration="19685000" />
+      <workItem from="1590395453906" duration="8736000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590316110032">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590316110032" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1590375192389">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590375192389" />
+    <state x="449" y="222" width="473" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590376603377">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="449" y="222" width="473" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1590376603377" />
+    <state width="494" height="438" key="DebuggerActiveHint" timestamp="1590403305523">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="494" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1590403305523" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1590048022056">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590048022056" />
+    <state x="504" y="243" width="382" height="242" key="Github.CreateGistDialog" timestamp="1590403702309">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="504" y="243" width="382" height="242" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1590403702309" />
+    <state width="961" height="263" key="GridCell.Tab.0.bottom" timestamp="1590404033249">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="961" height="263" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590404033249" />
+    <state width="961" height="263" key="GridCell.Tab.0.center" timestamp="1590404033249">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="961" height="263" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590404033249" />
+    <state width="961" height="263" key="GridCell.Tab.0.left" timestamp="1590404033249">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="961" height="263" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590404033249" />
+    <state width="961" height="263" key="GridCell.Tab.0.right" timestamp="1590404033249">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="961" height="263" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590404033249" />
+    <state width="961" height="263" key="GridCell.Tab.1.bottom" timestamp="1590404033249">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="961" height="263" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590404033249" />
+    <state width="961" height="263" key="GridCell.Tab.1.center" timestamp="1590404033249">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="961" height="263" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590404033249" />
+    <state width="961" height="263" key="GridCell.Tab.1.left" timestamp="1590404033249">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="961" height="263" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590404033249" />
+    <state width="961" height="263" key="GridCell.Tab.1.right" timestamp="1590404033249">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="961" height="263" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590404033249" />
+    <state width="961" height="263" key="GridCell.Tab.2.bottom" timestamp="1590404033250">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="961" height="263" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590404033250" />
+    <state width="961" height="263" key="GridCell.Tab.2.center" timestamp="1590404033250">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="961" height="263" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1590404033250" />
+    <state width="961" height="263" key="GridCell.Tab.2.left" timestamp="1590404033250">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="961" height="263" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1590404033250" />
+    <state width="961" height="263" key="GridCell.Tab.2.right" timestamp="1590404033250">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="961" height="263" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1590404033250" />
+    <state x="254" y="26" key="Registry" timestamp="1589879473827">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="254" y="26" key="Registry/0.0.1366.728@0.0.1366.728" timestamp="1589879473827" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1590385936899">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590385936899" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590395453960">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590395453960" />
+    <state x="57" y="58" key="new project wizard" timestamp="1590304346757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="58" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590304346757" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589879471548">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589879471548" />
+  </component>
+</project>
